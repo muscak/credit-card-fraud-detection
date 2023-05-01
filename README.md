@@ -10,4 +10,4 @@ This is a binary classification problem which will mark the transactions either 
 [1] [Credit card fraud](https://en.wikipedia.org/wiki/Credit_card_fraud)
 
 
-*Thanks to [flaticon.com](https://www.flaticon.com/) for free icons.
+*Thanks to [flaticon.com](https://www.flaticon.com/) for free icons in the notebook.
