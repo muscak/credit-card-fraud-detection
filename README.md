@@ -4,6 +4,8 @@ Credit card fraud can occur when unauthorized users gain access to an individual
 
 This is a binary classification problem which will mark the transactions either as fraudulent or non-fraudulent based on the trained model on the [Kaggle dataset](https://www.kaggle.com/datasets/yashpaloswal/fraud-detection-credit-card). Logistic Regression (LR), Linear Discriminant Analysis (LDA), $k$-Neighbors Classifier (KNN), Decision Tree Classifier (CART), Gaussian Naive Bayes (GNB) and Support Vector Classifier (SVM) algorithms are evaluated performance-wise.
 
+First we used `RandomUnderSampler` as the dataset was in high imbalanced state. Then we removed the outliers and applied `StandardScaler` to scale the feature. We could achive **98.21%** testing accuracy score with LR after hyper-parameter tuning. 
+
 
 ## References
 
